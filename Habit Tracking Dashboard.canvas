@@ -1,0 +1,59 @@
+{
+	"edges":[],
+	"metadata":{"version":"1.0-1.0"},
+	"nodes":[
+		{
+			"id":"74ab53a889ed2ef3",
+			"type":"text",
+			"text":"```dataviewjs\nawait dv.view(\"000 NewLife/Scripts/HabitTracker\", {\n    habitProperty: \"Reading\",\n    title: \"📚 阅读\",\n    notesFolder: \"002 Journal\"\n});\n```",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":-100,
+			"y":-1080,
+			"width":480,
+			"height":660
+		},
+		{
+			"id":"c397cc0f5a17b664",
+			"type":"text",
+			"text":"```dataviewjs\nawait dv.view(\"000 NewLife/Scripts/HabitTracker\", {\n    habitProperty: \"Writing\",\n    title: \"✍️ 写作\",\n    notesFolder: \"002 Journal\"\n});\n```",
+			"styleAttributes":{},
+			"x":-620,
+			"y":-1080,
+			"width":480,
+			"height":660
+		},
+		{
+			"id":"a401bfd5b52afa32",
+			"type":"text",
+			"text":"```dataviewjs\nawait dv.view(\"000 NewLife/Scripts/HabitTracker\", {\n    habitProperty: \"Workout\",\n    title: \"💪 健身\",\n    notesFolder: \"002 Journal\"\n});\n```",
+			"styleAttributes":{},
+			"x":420,
+			"y":-1080,
+			"width":480,
+			"height":660
+		},
+		{
+			"id":"d494a405c53e0e4b",
+			"type":"text",
+			"text":"```dataviewjs\nawait dv.view(\"000 NewLife/Scripts/HabitTracker\", {\n    habitProperty: \"Money\",\n    title: \"💰 赚钱\",\n    notesFolder: \"002 Journal\",\n    weekdayOnly: true\n});\n```",
+			"styleAttributes":{},
+			"x":-620,
+			"y":-380,
+			"width":480,
+			"height":660
+		},
+		{"id":"4c88cee787f56c47","type":"text","text":"```dataviewjs\nawait dv.view(\"000 NewLife/Scripts/HabitTracker\", {\n    habitProperty: \"Sleep\",\n    title: \"🛏️ 睡眠\",\n    notesFolder: \"002 Journal\"\n});\n```","x":420,"y":-380,"width":480,"height":660},
+		{
+			"id":"09c35b4cb7437cfd",
+			"type":"text",
+			"text":"```dataviewjs\nawait dv.view(\"000 NewLife/Scripts/HabitTracker\", {\n    habitProperty: \"Meditation\",\n    title: \"🧘‍♂️ 冥想\",\n    notesFolder: \"002 Journal\"\n});\n```",
+			"styleAttributes":{},
+			"x":-100,
+			"y":-380,
+			"width":480,
+			"height":660
+		}
+	]
+}

@@ -1,0 +1,55 @@
+/*
+author: The Useful Walrus
+source: https://discord.com/channels/686053708261228577/702656734631821413/1144209029464342538
+*/
+
+.metadata-properties-title {
+  transition: opacity 300ms ease-in-out, color 300ms ease-in-out;
+  opacity: 0.2;
+  pointer-events: none;
+  transform-origin: top;
+}
+
+.metadata-container:hover .metadata-properties-title {
+  opacity: 1;
+  color: var(--text-accent);
+  pointer-events: auto;
+}
+
+.metadata-content {
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+.metadata-container:hover .metadata-content {
+  opacity: 1;
+  max-height: 1000px; /* Large enough to accommodate content */
+  transform: translateY(0);
+  pointer-events: auto;
+  margin-bottom: 0.5em;
+}
+
+/* Prevent jarring transitions when hovering off */
+.metadata-container {
+  padding: 4px;
+  margin: -4px;
+  border-radius: 4px;
+  transition: background-color 200ms ease;
+  background-color: transparent !important; /* Force transparent background */
+}
+
+/* Target both preview and source view specifically */
+.markdown-preview-view .metadata-container:hover,
+.markdown-source-view .metadata-container:hover {
+  background-color: color-mix(in srgb, var(--background-primary) 97%, var(--text-accent)) !important;
+}
+
+/* Add specific override for source view */
+.markdown-source-view .metadata-container {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

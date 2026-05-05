@@ -1,0 +1,19 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "Multi-column",
+    "goal-tracker",
+    "Cards",
+    "clean_embed",
+    "Daily Note Themes",
+    "MCL Multi Column",
+    "Properties on Hover",
+    "Daily Theme Neutral Colors"
+  ],
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "interfaceFontFamily": "jingdonglangzhengti1",
+  "textFontFamily": "jingdonglangzhengti1",
+  "monospaceFontFamily": "jingdonglangzhengti1"
+}

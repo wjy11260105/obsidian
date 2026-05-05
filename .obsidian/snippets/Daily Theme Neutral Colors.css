@@ -1,0 +1,240 @@
+:root {
+    --highlight: #ffffff;
+    --primary: #9BA5B8;
+    --dark: #1f2028;
+  }
+  
+  .daily {
+    --text-color: var(--highlight);
+    color: var(--text-color);
+    --text-normal: var(--text-color);
+    --text-muted: var(--text-color);
+    --text-faint: var(--text-color);
+    --checklist-done-color: var(--text-color);
+    --metadata-label-text-color: var(--text-color);
+    --metadata-input-text-color: var(--text-color);
+    --hr-color: var(--primary);
+    --blockquote-border-color: var(--primary);
+    --interactive-accent: var(--primary);
+    --collapse-icon-color-collapsed: var(--primary);
+    --checkbox-color: var(--primary);
+    --checkbox-marker-color: var(--dark);
+    --checkbox-color-hover: var(--highlight);
+    --checkbox-border-color: var(--highlight);
+    --list-marker-color: var(--highlight);
+    --code-background: black;
+    --code-normal: var(--primary);
+  
+    --background-modifier-border-focus: var(--primary);
+    --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+    --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+    --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  }
+  
+  .theme-light .daily {
+    --primary: #565E6E;
+    --text-color: var(--dark);
+    --text-normal: var(--dark);
+    --text-muted: var(--dark);
+    --text-faint: var(--dark);
+    --metadata-label-text-color: var(--dark);
+    --metadata-input-text-color: var(--dark);
+    --code-background: var(--primary);
+    --code-normal: white;
+    --checkbox-marker-color: white;
+    --checkbox-color: var(--primary);
+    --checkbox-border-color: var(--primary);
+  }
+  
+  .sunday, .Sunday {
+    --highlight: #f2e9ec;
+    --primary: #b8a5ae;
+    --dark: #2d2226;
+  }
+  .monday, .Monday {
+    --highlight: #ece9e9;
+    --primary: #b8a5a5;
+    --dark: #2d2424;
+  }
+  .tuesday, .Tuesday {
+    --highlight: #e9ecf2;
+    --primary: #a5aeb8;
+    --dark: #222629;
+  }
+  .wednesday, .Wednesday {
+    --highlight: #f2f0e9;
+    --primary: #b8b3a5;
+    --dark: #2d2a24;
+  }
+  .thursday, .Thursday {
+    --highlight: #f2ebe9;
+    --primary: #b8aaa5;
+    --dark: #2d2624;
+  }
+  .friday, .Friday {
+    --highlight: #ebf2e9;
+    --primary: #a5b8aa;
+    --dark: #242d24;
+  }
+  .saturday, .Saturday{
+    --highlight: #f2e9ec;
+    --primary: #b8a5ae;
+    --dark: #2d2426;
+  }
+  
+  .daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--primary);
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding: 0 !important;
+  }
+  .daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: color-mix(in srgb, var(--highlight) 95%, var(--primary));
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    font-style: italic;
+    padding: 0 !important;
+  }
+  .daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: color-mix(in srgb, var(--primary) 95%, var(--highlight));
+    text-align: center;
+  
+    font-size: 32px;
+    font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding-top: 0;
+  }
+  .daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+    background-color: var(--primary);
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 20px;
+    width: fit-content;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 8px;
+    word-wrap: normal;
+  }
+  .daily :is(h5, .HyperMD-header.HyperMD-header-5) {
+    color: color-mix(in srgb, var(--primary) 95%, var(--highlight));
+    text-align: center;
+    font-size: 24px;
+    font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding-top: 0;
+  }
+  .daily :is(h6, .HyperMD-header.HyperMD-header-6) {
+    color: color-mix(in srgb, var(--primary) 95%, var(--highlight));
+    text-align: center;
+    font-size: 16px;
+    font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding-top: 0;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  .daily p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .daily :is(a:link, .cm-hmd-internal-link) {
+    color: color-mix(in srgb, var(--primary) 90%, white);
+  }
+  .daily :is(a:hover, .cm-hmd-internal-link:hover) {
+    color: var(--highlight);
+  }
+  .daily hr {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .daily img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  :is(.sunday, .Sunday,
+  .monday, .Monday,
+  .tuesday, .Tuesday,
+  .wednesday, .Wednesday,
+  .thursday, .Thursday,
+  .friday, .Friday,
+  .saturday, .Saturday
+    )
+    svg {
+    color: color-mix(in srgb, var(--highlight) 60%, transparent);
+  }
+  
+  .theme-light .daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--primary);
+  }
+  
+  .theme-light .daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: color-mix(in srgb, var(--primary) 85%, var(--dark));
+  }
+  
+  .theme-light .daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--primary);
+  }
+  
+  .theme-light .daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .theme-light .daily :is(h5, .HyperMD-header.HyperMD-header-5) {
+    color: var(--primary);
+  }
+  
+  .theme-light .daily :is(h6, .HyperMD-header.HyperMD-header-6) {
+    color: var(--primary);
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  
+  .theme-light .daily :is(a:link, .cm-hmd-internal-link) {
+    color: color-mix(in srgb, var(--primary) 90%, black);
+  }
+  
+  .theme-light .daily :is(a:hover, .cm-hmd-internal-link:hover) {
+    color: color-mix(in srgb, var(--dark) 90%, var(--primary));
+  }
+  
+  .theme-light .sunday, .theme-light .Sunday {
+    --primary: #8E7981;
+    --highlight: #f2e9ec;
+    --dark: #2d2226;
+  }
+  .theme-light .monday, .theme-light .Monday {
+    --primary: #8E7878;
+    --highlight: #ece9e9;
+    --dark: #2d2424;
+  }
+  .theme-light .tuesday, .theme-light .Tuesday {
+    --primary: #778291;
+    --highlight: #e9ecf2;
+    --dark: #222629;
+  }
+  .theme-light .wednesday, .theme-light .Wednesday {
+    --primary: #8E8678;
+    --highlight: #f2f0e9;
+    --dark: #2d2a24;
+  }
+  .theme-light .thursday, .theme-light .Thursday {
+    --primary: #8E7D78;
+    --highlight: #f2ebe9;
+    --dark: #2d2624;
+  }
+  .theme-light .friday, .theme-light .Friday {
+    --primary: #778E7D;
+    --highlight: #ebf2e9;
+    --dark: #242d24;
+  }
+  .theme-light .saturday, .theme-light .Saturday {
+    --primary: #8E7981;
+    --highlight: #f2e9ec;
+    --dark: #2d2426;
+  }
+  

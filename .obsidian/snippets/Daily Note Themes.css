@@ -1,0 +1,74 @@
+.daily {
+  --text-normal: inherit;
+  --text-muted: inherit;
+  --text-faint: inherit;
+  --checklist-done-color: inherit;
+  --metadata-label-text-color: inherit;
+  --metadata-input-text-color: inherit;
+}
+
+.daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+
+.daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-style: italic;
+  padding: 0 !important;
+}
+
+.daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+
+.daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  word-wrap: normal;
+}
+
+.daily :is(h5, .HyperMD-header.HyperMD-header-5) {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+
+.daily :is(h6, .HyperMD-header.HyperMD-header-6) {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.daily p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.daily hr {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.daily img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

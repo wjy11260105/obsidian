@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "ce26dbc657d2fe45",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9282eeba54c4572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cc5fe9b232d2874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "006 OUTPUT/Youtube/10 Free Downloadable vaults for Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44c766c1ef3a97b1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8971a8ada2e6c9b1",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime"
+          }
+        }
+      },
+      {
+        "id": "d2615e1d60edee38",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a6107f4cd4ba5403",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "910fb485e0785463",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "a4e521a419e9c3b6",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "862e387ebd30ff13",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bac3878d6a1bdb1d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "006 OUTPUT/Youtube/10 Free Downloadable vaults for Obsidian.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "2a267d43dfe80708",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "006 OUTPUT/Youtube/10 Free Downloadable vaults for Obsidian.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5c53b0abe7518a9d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "006 OUTPUT/Youtube/10 Free Downloadable vaults for Obsidian.md"
+          }
+        }
+      },
+      {
+        "id": "e648ce9606db8276",
+        "type": "leaf",
+        "state": {
+          "type": "journal-calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "9aedf30ae79918e3",
+        "type": "leaf",
+        "state": {
+          "type": "journal-calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "1011631c8be1c34d",
+        "type": "leaf",
+        "state": {
+          "type": "journal-calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "79afc2d18be5158a",
+        "type": "leaf",
+        "state": {
+          "type": "journal-calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "aa49512e0b533371",
+        "type": "leaf",
+        "state": {
+          "type": "journal-calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "graph:Open graph view": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "auralite:Push to talk": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "mesh-ai:Mesh AI Integration": false,
+      "obsidian-projects:Open projects": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-trim-whitespace:Trim whitespace": false,
+      "note-toolbar:Note Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-trash-explorer:Open trash explorer": false
+    }
+  },
+  "active": "3cc5fe9b232d2874",
+  "lastOpenFiles": [
+    "006 OUTPUT/Youtube/Powerful Obsidian Dataview Examples to Blow Your Mind.md",
+    "006 OUTPUT/Youtube/New Obsidian Plugins 3.md",
+    "Images/Mac Apps.png",
+    "Images/White.png",
+    "Images/New Obsidian Plugins.jpg",
+    "Images/thumbnail.d812987e.mp4",
+    "Images/Capture-2024-08-11-084336.png",
+    "Images/Mac appss.png",
+    "Images",
+    "New Note.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "LLMs usefulness.md",
+    "caret/chats/Exploring multiple meanings.md",
+    "006 OUTPUT/Youtube/New Obsidian Plugins 2.md",
+    "recording-1721882071849.wav",
+    "recording-1721881996872.wav",
+    "recording-1721881816539.wav",
+    "Untitled.md",
+    "006 OUTPUT/Youtube/Task list Kanban Plugin.md",
+    "006 OUTPUT/Youtube/New Obsidian Plugins 1.md",
+    "000 MOC/Kanban-1720170489691.md",
+    "000 MOC/Kanban-1720170494027.md",
+    "Untitled Kanban.sync-conflict-20240705-145159-C7HCYXM.md",
+    "Untitled Kanban.md",
+    "ExcelShhetst/Excel 2024-07-05 14.48.25.univer.md",
+    "templify-Cornell Note Template-20240705143850.md",
+    "templify-Eisenhower Matrix Template-20240705143705.md",
+    "006 OUTPUT/Youtube/Obsidian Plugins Nobody Talks About.md",
+    "Recordings/Entry Oh- brief reflection on feelings.md",
+    "001 ATOMIC NOTES/How do you grade yourself.md",
+    "Focusmate Goals.md",
+    "003 REFLECT/Journal/Weekly Note/2024-24.md",
+    "006 OUTPUT/Youtube/Obsidian Note Toolbar.md",
+    "000 Home.sync-conflict-20240422-091510-C7HCYXM.md",
+    "000 Home.sync-conflict-20240422-090836-C7HCYXM.md",
+    "000 Home.sync-conflict-20240422-090749-C7HCYXM.md",
+    "000 Home.sync-conflict-20240422-090651-C7HCYXM.md",
+    "000 ATOMIC NOTES/Programming",
+    "000 ATOMIC NOTES",
+    "Untitled 1.edtz",
+    "Untitled.edtz"
+  ]
+}

@@ -1,0 +1,8 @@
+# Obsidian
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.DS_Store
+*.swp
+*.swo
+*~
+.env
