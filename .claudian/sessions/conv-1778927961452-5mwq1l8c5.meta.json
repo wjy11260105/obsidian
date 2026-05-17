@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778927961452-5mwq1l8c5",
+  "providerId": "claude",
+  "title": "我想用一个好看的表格 记录我的学习来源 包括学习类型 学习渠道 及对应的网页链接",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778927961452,
+  "updatedAt": 1778928767045,
+  "lastResponseAt": 1778928767045,
+  "sessionId": "f378998d-853b-4870-ae42-f8764e7b4503",
+  "providerState": {
+    "providerSessionId": "f378998d-853b-4870-ae42-f8764e7b4503"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 6,
+    "cacheCreationInputTokens": 869,
+    "cacheReadInputTokens": 52726,
+    "contextWindow": 1000000,
+    "contextTokens": 53601,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

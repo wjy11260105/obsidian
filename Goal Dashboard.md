@@ -32,8 +32,12 @@ function formatDate(date) {
   } else if (typeof date === 'number') {
     m = moment.unix(date);
   } else {
-    m = moment(date); // 尝试自动解析
-    if (!m.isValid()) m = moment(date, "YYYY-MM-DD");
+    // 强制转换为字符串并解析
+    const dateStr = String(date).trim();
+    m = moment(dateStr, ["YYYY-MM-DD", "YYYY/MM/DD", "DD/MM/YYYY"]);
+    if (!m.isValid()) {
+      m = moment(dateStr);
+    }
   }
   return m.isValid() ? m.format("YYYY年M月D日") : "—";
 }
@@ -44,12 +48,17 @@ if (goals.length === 0) {
   dv.paragraph("🎉 暂无进行中的目标");
 } else {
   dv.table(["目标", "截止日期", "状态", "进度"], 
-    goals.map(goal => [
-      `<span style="font-size: 1.1em;">${goal.file.link}</span>`,
-      formatDate(goal.deadline),
-      goal.status === "active" ? "🟡 进行中" : "🔴 已放弃",
-      `<progress value="${goal.progress}" max="${goal.target}"></progress><br>${Math.round((goal.progress / goal.target) * 100)}%`
-    ])
+    goals.map(goal => {
+      const progress = goal.progress || 0;
+      const target = goal.target || 100;
+      const percentage = Math.round((progress / target) * 100);
+      return [
+        `<span style="font-size: 1.1em;">${goal.file.link}</span>`,
+        formatDate(goal.deadline),
+        goal.status === "active" ? "🟡 进行中" : "🔴 已放弃",
+        `<progress value="${progress}" max="${target}"></progress><br>${percentage}%`
+      ];
+    })
   );
 }
 ```

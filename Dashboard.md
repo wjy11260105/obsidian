@@ -153,8 +153,12 @@ renderHeatmapCalendar(this.container, calendarData)
 >   } else if (typeof date === 'number') {
 >     m = moment.unix(date);
 >   } else {
->     m = moment(date);
->     if (!m.isValid()) m = moment(date, "YYYY-MM-DD");
+>     // 强制转换为字符串并解析
+>     const dateStr = String(date).trim();
+>     m = moment(dateStr, ["YYYY-MM-DD", "YYYY/MM/DD", "DD/MM/YYYY"]);
+>     if (!m.isValid()) {
+>       m = moment(dateStr);
+>     }
 >   }
 >   return m.isValid() ? m.format("YYYY年M月D日") : "—";
 > }
@@ -257,6 +261,7 @@ renderHeatmapCalendar(this.container, calendarData)
 >    - [[示例项目1：多模型智能体开发]]
 >    - [[示例项目2：跨端数据大屏]]
 > - #### 学习 & 目标
+>    - [[Learning Dashboard | 🎓 学习看板]]
 >    - [[2026 年度阅读挑战]]
 >    - [[四月苏杭春季踏青计划]]
 >    - [[Q1-Q2 50公里跑步挑战]]
@@ -270,17 +275,18 @@ renderHeatmapCalendar(this.container, calendarData)
 
 > [!multi-column]
 > > [!summary] 最近创建
->>  ```dataview
-> list
-> from ""
-> Sort file.ctime DESC
-> limit 7
+> > ```dataview
+> > list
+> > from ""
+> > sort file.ctime desc
+> > limit 7
+> > ```
 > 
->> [!Todo] 最近更新
->>  ```dataview
->> 	list
->> 	from ""
->> 	Sort file.mtime DESC
->> 	limit 7
->>```
+> > [!Todo] 最近更新
+> > ```dataview
+> > list
+> > from ""
+> > sort file.mtime desc
+> > limit 7
+> > ```
 

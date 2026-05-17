@@ -1,0 +1,98 @@
+---
+tags:
+  - case
+  - bigdata
+cssclasses:
+  - daily
+banner: 000 NewLife/Banner/mana-01.png
+topic:
+tech-stack: []
+difficulty: intermediate
+progress: 0
+start-date:
+deadline:
+---
+<% await tp.file.move("005 Learning/Cases/" + tp.file.title) %>
+
+## 🎯 案例进度
+
+> [!warning]+ 进度更新
+> ```meta-bind
+> INPUT[progressBar(title(完成度), minValue(0), maxValue(100)):progress]
+> ```
+
+> [!info]+ 时间设置
+> 开始日期：`INPUT[date(title(开始日期), dateFormat(YYYY-MM-DD)):start-date]`
+> 截止日期：`INPUT[date(title(截止日期), dateFormat(YYYY-MM-DD)):deadline]`
+
+> [!tip]+ 技术栈
+> 难度：`INPUT[select(title(难度), option(beginner, 初级), option(intermediate, 中级), option(advanced, 高级), defaultValue(intermediate)):difficulty]`
+
+---
+
+## 📖 业务背景
+
+### 问题描述
+
+### 业务需求
+
+---
+
+## 🏗️ 技术方案选型
+
+### 方案对比
+
+| 方案 | 优点 | 缺点 | 选择 |
+|------|------|------|------|
+|      |      |      |      |
+
+### 最终选择
+
+---
+
+## 🔨 实现过程
+
+- [ ] 步骤 1：
+- [ ] 步骤 2：
+- [ ] 步骤 3：
+- [ ] 步骤 4：
+
+---
+
+## 💻 核心代码
+
+```python
+# 核心实现代码
+```
+
+---
+
+## ⚠️ 遇到的坑
+
+### 坑 1：
+
+**解决方案：**
+
+### 坑 2：
+
+**解决方案：**
+
+---
+
+## 🎓 结果 & 收获
+
+### 最终结果
+
+### 关键收获
+
+1. 
+2. 
+3. 
+
+### 可优化的地方
+
+---
+
+## 🔗 关联资源
+
+- 

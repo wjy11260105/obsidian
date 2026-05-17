@@ -1,0 +1,26 @@
+{
+  "id": "conv-1778926883716-atg4jmw42",
+  "providerId": "claude",
+  "title": "Implement this plan:",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778926883716,
+  "updatedAt": 1778991967356,
+  "lastResponseAt": 1778991967356,
+  "sessionId": "c7604f84-0fe1-45b0-93d3-864e975ebe4c",
+  "providerState": {
+    "providerSessionId": "c7604f84-0fe1-45b0-93d3-864e975ebe4c"
+  },
+  "externalContextPaths": [
+    "/Users/echo/Desktop/vibecoding-西瓜大模型/代码+课件/第一章：AI编程范式经验分享"
+  ],
+  "usage": {
+    "model": "opus",
+    "inputTokens": 6,
+    "cacheCreationInputTokens": 1043,
+    "cacheReadInputTokens": 202535,
+    "contextWindow": 1000000,
+    "contextTokens": 203584,
+    "percentage": 20,
+    "contextWindowIsAuthoritative": true
+  }
+}
