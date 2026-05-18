@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d82f8a1de68e849e",
+        "id": "3b6be8ed5e51803e",
         "type": "tabs",
         "children": [
           {
-            "id": "6645d6856f467bc4",
+            "id": "4c582540567ceaa5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "基于Apache Flink的流处理.pdf",
-                "page": 20,
-                "left": -7,
-                "top": 466,
-                "zoom": 2.2917708854427215
+                "file": "005 Learning/Xieshengzi/李小龙专场笔记.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "基于Apache Flink的流处理"
+              "icon": "lucide-file",
+              "title": "李小龙专场笔记"
             }
           }
         ]
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基于Apache Flink的流处理.pdf",
+                "file": "005 Learning/Xieshengzi/李小龙专场笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "基于Apache Flink的流处理 的反向链接列表"
+              "title": "李小龙专场笔记 的反向链接列表"
             }
           },
           {
@@ -125,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基于Apache Flink的流处理.pdf",
+                "file": "005 Learning/Xieshengzi/李小龙专场笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "基于Apache Flink的流处理 的出链列表"
+              "title": "李小龙专场笔记 的出链列表"
             }
           },
           {
@@ -231,38 +229,38 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9ea1de8af8cf0ac4",
+  "active": "4c582540567ceaa5",
   "lastOpenFiles": [
-    "005 Learning/Xieshengzi/李小龙专场笔记.md",
-    "基于Apache Flink的流处理.pdf",
+    "004 Goals/04 身材管理目标116斤+马甲线.md",
     "胜子闭门讲书直播-李小龙专场.pdf",
+    "基于Apache Flink的流处理.pdf",
+    "005 Learning/VibeCoding/未命名.md",
+    "002 Journal/2026/五月/2026-05-18.md",
+    "005 Learning/Xieshengzi/李小龙专场笔记.md",
+    "005 Learning/文件结构说明.md",
+    "Learning Dashboard.md",
+    "005 Learning/VibeCoding/视频笔记.md",
     "01_Vibe Coding AI编程范式分享与快速实践.pdf",
+    "005 Learning/VibeCoding/AI编程范式分享与快速实践.md",
     "004 Goals/05 谢胜子专栏学习.md",
     "005 Learning/Snippets/新代码片段.md",
     "005 Learning/Xieshengzi",
     "005 Learning/Snippets/新代码片段 1.md",
-    "Learning Dashboard.md",
-    "004 Goals/04 身材管理目标116斤+马甲线.md",
     "Goal Dashboard.md",
     "Habit Tracker.md",
     "Habit Tracking Dashboard.canvas",
     "App Accounts.md",
     "未命名.md",
     "未命名 1.md",
-    "005 Learning/VibeCoding/视频笔记.md",
-    "005 Learning/VibeCoding/AI编程范式分享与快速实践.md",
     "004 Goals/03 上海铁人三项企业挑战赛.md",
     "004 Goals/01 半程马拉松破150.md",
     "004 Goals/02 hyrox上海站参赛.md",
     "002 Journal/2026/五月/2026-05-17.md",
     "005 Learning/VibeCoding/README.md",
-    "005 Learning/文件结构说明.md",
     "Dashboard.md",
     "2026 年度阅读挑战.md",
     "Tasks Calendar.md",
     "Project Dashboard.md",
-    "005 Learning/Snippets/README.md",
-    "005 Learning/Cases/新技术案例.md",
     "005 Learning/VibeCoding",
     "005 Learning/Cases",
     "005 Learning/Snippets",

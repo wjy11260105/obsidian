@@ -4,8 +4,8 @@
   "title": "Implement this plan:",
   "titleGenerationStatus": "failed",
   "createdAt": 1778926883716,
-  "updatedAt": 1778991967356,
-  "lastResponseAt": 1778991967356,
+  "updatedAt": 1779065084136,
+  "lastResponseAt": 1779065084136,
   "sessionId": "c7604f84-0fe1-45b0-93d3-864e975ebe4c",
   "providerState": {
     "providerSessionId": "c7604f84-0fe1-45b0-93d3-864e975ebe4c"
@@ -16,11 +16,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 6,
-    "cacheCreationInputTokens": 1043,
-    "cacheReadInputTokens": 202535,
+    "cacheCreationInputTokens": 223439,
+    "cacheReadInputTokens": 0,
     "contextWindow": 1000000,
-    "contextTokens": 203584,
-    "percentage": 20,
+    "contextTokens": 223445,
+    "percentage": 22,
     "contextWindowIsAuthoritative": true
   }
 }
